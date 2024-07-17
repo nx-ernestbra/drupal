@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0e67673d-6853-4e1f-8806-f1d950c691d2" name="Drupal">
+        <fileTransfer accessType="SFTP" host="localhost" port="2222" sshConfigId="fbf7ae4f-2bf5-4522-bef5-38780afa570c" sshConfig="sftpuser@localhost:2222 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
