@@ -8,6 +8,6 @@
 /**
  * Implements hook_cron()
  */
-function mymodule_cron() {
-  \Drupal::messenger()->addMessage(t("Cronjob started."));
+function mymodule_cron(): void {
+  \Drupal::messenger()->addMessage(t("Cronjob started. Man Tierrr"));
 }
